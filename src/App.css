@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.shadow-top {
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url('path/to/MuseoSans-Regular.woff2') format('woff2'),
+       url('path/to/MuseoSans-Regular.woff') format('woff');
+  
+}
+
+.body{
+  overflow-x: hidden;
+}
+
